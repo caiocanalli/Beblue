@@ -1,0 +1,15 @@
+E:\Projetos\C#\Beblue\Beblue.Infrastructure.CrossCutting.IoC\bin\Release\Beblue.Infrastructure.CrossCutting.IoC.dll
+E:\Projetos\C#\Beblue\Beblue.Infrastructure.CrossCutting.IoC\bin\Release\Beblue.Infrastructure.CrossCutting.IoC.pdb
+E:\Projetos\C#\Beblue\Beblue.Infrastructure.CrossCutting.IoC\bin\Release\Beblue.Application.dll
+E:\Projetos\C#\Beblue\Beblue.Infrastructure.CrossCutting.IoC\bin\Release\Beblue.Domain.dll
+E:\Projetos\C#\Beblue\Beblue.Infrastructure.CrossCutting.IoC\bin\Release\Beblue.Infrastructure.Repository.dll
+E:\Projetos\C#\Beblue\Beblue.Infrastructure.CrossCutting.IoC\bin\Release\Ninject.dll
+E:\Projetos\C#\Beblue\Beblue.Infrastructure.CrossCutting.IoC\bin\Release\EntityFramework.dll
+E:\Projetos\C#\Beblue\Beblue.Infrastructure.CrossCutting.IoC\bin\Release\Beblue.Application.pdb
+E:\Projetos\C#\Beblue\Beblue.Infrastructure.CrossCutting.IoC\bin\Release\Beblue.Domain.pdb
+E:\Projetos\C#\Beblue\Beblue.Infrastructure.CrossCutting.IoC\bin\Release\Beblue.Infrastructure.Repository.pdb
+E:\Projetos\C#\Beblue\Beblue.Infrastructure.CrossCutting.IoC\bin\Release\Ninject.xml
+E:\Projetos\C#\Beblue\Beblue.Infrastructure.CrossCutting.IoC\bin\Release\EntityFramework.xml
+E:\Projetos\C#\Beblue\Beblue.Infrastructure.CrossCutting.IoC\obj\Release\Beblue.Infrastructure.CrossCutting.IoC.csprojResolveAssemblyReference.cache
+E:\Projetos\C#\Beblue\Beblue.Infrastructure.CrossCutting.IoC\obj\Release\Beblue.Infrastructure.CrossCutting.IoC.dll
+E:\Projetos\C#\Beblue\Beblue.Infrastructure.CrossCutting.IoC\obj\Release\Beblue.Infrastructure.CrossCutting.IoC.pdb

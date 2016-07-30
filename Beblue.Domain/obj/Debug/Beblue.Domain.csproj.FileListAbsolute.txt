@@ -1,0 +1,10 @@
+E:\Projetos\C#\Beblue\Beblue.Domain\bin\Debug\Beblue.Domain.dll
+E:\Projetos\C#\Beblue\Beblue.Domain\bin\Debug\Beblue.Domain.pdb
+E:\Projetos\C#\Beblue\Beblue.Domain\obj\Debug\Beblue.Domain.csprojResolveAssemblyReference.cache
+E:\Projetos\C#\Beblue\Beblue.Domain\obj\Debug\Beblue.Domain.dll
+E:\Projetos\C#\Beblue\Beblue.Domain\obj\Debug\Beblue.Domain.pdb
+D:\Projetos\Pessoais\C#\Beblue\Beblue.Domain\bin\Debug\Beblue.Domain.dll
+D:\Projetos\Pessoais\C#\Beblue\Beblue.Domain\bin\Debug\Beblue.Domain.pdb
+D:\Projetos\Pessoais\C#\Beblue\Beblue.Domain\obj\Debug\Beblue.Domain.csprojResolveAssemblyReference.cache
+D:\Projetos\Pessoais\C#\Beblue\Beblue.Domain\obj\Debug\Beblue.Domain.dll
+D:\Projetos\Pessoais\C#\Beblue\Beblue.Domain\obj\Debug\Beblue.Domain.pdb

@@ -1,0 +1,14 @@
+E:\Projetos\C#\Beblue\Beblue.Infrastructure.Repository\bin\Release\Beblue.Infrastructure.Repository.dll.config
+E:\Projetos\C#\Beblue\Beblue.Infrastructure.Repository\bin\Release\Beblue.Infrastructure.Repository.dll
+E:\Projetos\C#\Beblue\Beblue.Infrastructure.Repository\bin\Release\Beblue.Infrastructure.Repository.pdb
+E:\Projetos\C#\Beblue\Beblue.Infrastructure.Repository\bin\Release\Beblue.Domain.dll
+E:\Projetos\C#\Beblue\Beblue.Infrastructure.Repository\bin\Release\EntityFramework.dll
+E:\Projetos\C#\Beblue\Beblue.Infrastructure.Repository\bin\Release\EntityFramework.SqlServer.dll
+E:\Projetos\C#\Beblue\Beblue.Infrastructure.Repository\bin\Release\Beblue.Domain.pdb
+E:\Projetos\C#\Beblue\Beblue.Infrastructure.Repository\bin\Release\EntityFramework.xml
+E:\Projetos\C#\Beblue\Beblue.Infrastructure.Repository\bin\Release\EntityFramework.SqlServer.xml
+E:\Projetos\C#\Beblue\Beblue.Infrastructure.Repository\obj\Release\Beblue.Infrastructure.Repository.csprojResolveAssemblyReference.cache
+E:\Projetos\C#\Beblue\Beblue.Infrastructure.Repository\obj\Release\Beblue.Infrastructure.Repository.Migrations.Initial.resources
+E:\Projetos\C#\Beblue\Beblue.Infrastructure.Repository\obj\Release\Beblue.Infrastructure.Repository.csproj.GenerateResource.Cache
+E:\Projetos\C#\Beblue\Beblue.Infrastructure.Repository\obj\Release\Beblue.Infrastructure.Repository.dll
+E:\Projetos\C#\Beblue\Beblue.Infrastructure.Repository\obj\Release\Beblue.Infrastructure.Repository.pdb

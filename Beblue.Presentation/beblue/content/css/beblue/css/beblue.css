@@ -1,0 +1,31 @@
+﻿@font-face {
+    font-family: "Museo Sans 300";
+    src: url("../fonts/");
+    src: local("☺"), url("../fonts/") format("woff"), url("../fonts/museosans-300-webfont.ttf") format("truetype");
+}
+
+body {
+    background-color: #eeeeee;
+    font-family: "Museo Sans 300";
+}
+
+textarea {
+    resize: none;
+}
+
+option {
+    font-family: "Museo Sans 300";
+}
+
+.titulo {
+    color: #7c7a7a;
+}
+
+.filtro {
+    display: inline-block; 
+    margin-bottom: 30px;
+}
+
+.margin-filtro {
+    margin-right: 30px;
+}

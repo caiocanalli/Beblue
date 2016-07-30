@@ -1,0 +1,7 @@
+E:\Projetos\C#\Beblue\Beblue.Application\bin\Release\Beblue.Application.dll
+E:\Projetos\C#\Beblue\Beblue.Application\bin\Release\Beblue.Application.pdb
+E:\Projetos\C#\Beblue\Beblue.Application\bin\Release\Beblue.Domain.dll
+E:\Projetos\C#\Beblue\Beblue.Application\bin\Release\Beblue.Domain.pdb
+E:\Projetos\C#\Beblue\Beblue.Application\obj\Release\Beblue.Application.csprojResolveAssemblyReference.cache
+E:\Projetos\C#\Beblue\Beblue.Application\obj\Release\Beblue.Application.dll
+E:\Projetos\C#\Beblue\Beblue.Application\obj\Release\Beblue.Application.pdb

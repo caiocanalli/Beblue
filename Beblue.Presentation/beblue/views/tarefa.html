@@ -1,0 +1,151 @@
+﻿<div class="container" style="margin-top: 40px;">
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="pull-left">
+                <h5>Beblue Notes</h5>
+            </div>
+            <div class="pull-right">
+                <span>
+                    <span>Bem vindo {{nome}}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <button class="btn btn-danger" ng-click="sair()">  Sair</button>
+                </span>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+
+    <div class="row" style="margin-top: 30px;">
+
+        <div class="col-md-8">
+            <div class="panel panel-primary">
+                <div class="panel-body">
+                    <h5 style="margin-bottom: 30px;">Suas tarefas</h5>
+
+                    <div class="pull-right filtro" ng-show="tarefas.length > 0">
+
+                        <input type="checkbox" ng-model="search.type1" ng-true-value="'true'" ng-false-value="" />
+                        <label class="margin-filtro">Concluídas</label>
+
+                        <input type="checkbox" class="margin-filtro" ng-model="search.type2" ng-true-value="'false'" ng-false-value="" />
+                        <label class="margin-filtro">Não concluídas</label>
+
+                    </div>
+                    <div class="clearfix"></div>
+
+                    <div ng-show="tarefas.length == 0">Você não possui tarefas</div>
+
+                    <div ng-show="tarefas.length > 0">
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Nome</th>
+                                    <th>Descrição</th>
+                                    <th>Data cadastro</th>
+                                    <th>Categoria</th>
+                                    <th>Prioridade</th>
+                                    <th>Concluída</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr ng-repeat="tarefa in tarefas | filter:search.type1 | filter:search.type2">
+                                    <td>{{tarefa.nome}}</td>
+                                    <td>{{tarefa.descricao}}</td>
+                                    <td>{{tarefa.dataCadastro | date: "dd/MM/yyyy"}}</td>
+                                    <td>{{tarefa.categoria.nome}}</td>
+                                    <td>{{tarefa.prioridade.nome}}</td>
+                                    <td>{{isTarefaConcluida(tarefa.concluida)}}</td>
+                                    <td>
+                                        <div class="btn-group" role="group" aria-label="...">
+                                            <button class="btn btn-warning btn-sm" ng-click="editar(tarefa)"><i class="glyphicon glyphicon-edit"></i></button>
+                                            <button class="btn btn-danger btn-sm" ng-click="excluir(tarefa)"><i class="glyphicon glyphicon-remove"></i></button>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+
+            <div class="panel panel-primary">
+                <div class="panel-body">
+
+                    <form name="tarefaForm">
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h5>Tarefa</h5>
+                            </div>
+                        </div>
+
+                        <input type="hidden" value="{{tarefa.idTarefa}}" />
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Nome da tarefa" ng-model="tarefa.nome" ng-required="true" />
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <textarea class="form-control" placeholder="Descrição" ng-model="tarefa.descricao" ng-required="true"></textarea>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <select class="form-control" ng-model="tarefa.categoria" ng-options="categoria.nome for categoria in categorias" ng-required="true">
+                                        <option value="">Qual a categoria desta tarefa?</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <select class="form-control" ng-model="tarefa.prioridade" ng-options="prioridade.nome for prioridade in prioridades" ng-required="true">
+                                        <option value="">Qual a prioridade desta tarefa?</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <input type="checkbox" ng-model="tarefa.concluida" />Concluída
+                                </div>
+                            </div>
+                        </div>
+
+                        <div style="margin-top: 10px; margin-bottom: 10px;"></div>
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <div class="pull-right">
+                                        <button class="btn btn-primary" ng-disabled="tarefaForm.$invalid" ng-click="salvar(tarefa)">Salvar</button>
+                                        <button class="btn btn-primary" ng-click="nova()">Cancelar</button>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

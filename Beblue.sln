@@ -1,0 +1,95 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presentation", "1 - Presentation", "{8C360AF8-C2C6-46A4-8704-E86552384A0C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Services", "2 - Services", "{0CC28E9E-D147-420D-B48C-F17AE900D4BB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Application", "3 - Application", "{849B2A77-3B4E-449C-A599-9ED1E94791E6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Domain", "4 - Domain", "{69CE637B-396B-45C5-BD85-221F54A91C61}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Infrastructure", "5 - Infrastructure", "{FB0FC37B-BD47-4CA6-867C-B5FDFB40651C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.1 - Repository", "5.1 - Repository", "{AE7A5FCA-1D71-4C53-9EBE-C3D0B8ABC7D7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.2 - CrossCutting", "5.2 - CrossCutting", "{653EFDE1-8D66-4B16-A3C1-91EEDAF0E51D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beblue.Infrastructure.Repository", "Beblue.Infrastructure.Repository\Beblue.Infrastructure.Repository.csproj", "{AB9111B1-BFCE-4CEC-9814-9DCAFB9D566A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beblue.Domain", "Beblue.Domain\Beblue.Domain.csproj", "{EC7A53DF-852F-41ED-B2BA-346809006807}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beblue.Application", "Beblue.Application\Beblue.Application.csproj", "{850313DE-78A5-49F7-8016-C28981EDC388}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beblue.Infrastructure.CrossCutting.IoC", "Beblue.Infrastructure.CrossCutting.IoC\Beblue.Infrastructure.CrossCutting.IoC.csproj", "{657FBBC5-59F2-41B5-80BE-6FA9814361C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beblue.Services", "Beblue.Services\Beblue.Services.csproj", "{13BB7875-4080-47B8-97D5-0D25B1F44D4E}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "beblue", "Beblue.Presentation\beblue\", "{08C89C9C-F11E-43D7-BD2D-C7EF83C19CF3}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv3.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_51358"
+		Debug.AspNetCompiler.PhysicalPath = "Beblue.Presentation\beblue\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51358\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_51358"
+		Release.AspNetCompiler.PhysicalPath = "Beblue.Presentation\beblue\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51358\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "51358"
+		SlnRelativePath = "Beblue.Presentation\beblue\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB9111B1-BFCE-4CEC-9814-9DCAFB9D566A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB9111B1-BFCE-4CEC-9814-9DCAFB9D566A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB9111B1-BFCE-4CEC-9814-9DCAFB9D566A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB9111B1-BFCE-4CEC-9814-9DCAFB9D566A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC7A53DF-852F-41ED-B2BA-346809006807}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC7A53DF-852F-41ED-B2BA-346809006807}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC7A53DF-852F-41ED-B2BA-346809006807}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC7A53DF-852F-41ED-B2BA-346809006807}.Release|Any CPU.Build.0 = Release|Any CPU
+		{850313DE-78A5-49F7-8016-C28981EDC388}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{850313DE-78A5-49F7-8016-C28981EDC388}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{850313DE-78A5-49F7-8016-C28981EDC388}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{850313DE-78A5-49F7-8016-C28981EDC388}.Release|Any CPU.Build.0 = Release|Any CPU
+		{657FBBC5-59F2-41B5-80BE-6FA9814361C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{657FBBC5-59F2-41B5-80BE-6FA9814361C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{657FBBC5-59F2-41B5-80BE-6FA9814361C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{657FBBC5-59F2-41B5-80BE-6FA9814361C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13BB7875-4080-47B8-97D5-0D25B1F44D4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13BB7875-4080-47B8-97D5-0D25B1F44D4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13BB7875-4080-47B8-97D5-0D25B1F44D4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13BB7875-4080-47B8-97D5-0D25B1F44D4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08C89C9C-F11E-43D7-BD2D-C7EF83C19CF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08C89C9C-F11E-43D7-BD2D-C7EF83C19CF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08C89C9C-F11E-43D7-BD2D-C7EF83C19CF3}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{08C89C9C-F11E-43D7-BD2D-C7EF83C19CF3}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AE7A5FCA-1D71-4C53-9EBE-C3D0B8ABC7D7} = {FB0FC37B-BD47-4CA6-867C-B5FDFB40651C}
+		{653EFDE1-8D66-4B16-A3C1-91EEDAF0E51D} = {FB0FC37B-BD47-4CA6-867C-B5FDFB40651C}
+		{AB9111B1-BFCE-4CEC-9814-9DCAFB9D566A} = {AE7A5FCA-1D71-4C53-9EBE-C3D0B8ABC7D7}
+		{EC7A53DF-852F-41ED-B2BA-346809006807} = {69CE637B-396B-45C5-BD85-221F54A91C61}
+		{850313DE-78A5-49F7-8016-C28981EDC388} = {849B2A77-3B4E-449C-A599-9ED1E94791E6}
+		{657FBBC5-59F2-41B5-80BE-6FA9814361C3} = {653EFDE1-8D66-4B16-A3C1-91EEDAF0E51D}
+		{13BB7875-4080-47B8-97D5-0D25B1F44D4E} = {0CC28E9E-D147-420D-B48C-F17AE900D4BB}
+		{08C89C9C-F11E-43D7-BD2D-C7EF83C19CF3} = {8C360AF8-C2C6-46A4-8704-E86552384A0C}
+	EndGlobalSection
+EndGlobal
